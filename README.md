@@ -11,6 +11,6 @@ The research content includes but is not limited to protein structure prediction
 - [VenusMutHub: A systematic evaluation of protein mutation effect predictors on small-scale experimental data](https://www.sciencedirect.com/science/article/pii/S2211383525001650). *Acta Pharmaceutica Sinica B*, 2025.
 
 ## 🌍 Hugging Face Model Stats
-**Total Model & Dataset Downloads**: _Updating via GitHub Actions_
+**Total Model & Dataset Downloads**: 0
 
 (Or check out my Hugging Face profile: [Hugging Face](https://huggingface.co/ai4protein))
