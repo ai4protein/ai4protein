@@ -12,6 +12,8 @@ The research content includes but is not limited to protein structure prediction
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ai4protein&show_icons=true&theme=radical)
 
 ## 🌍 Hugging Face Model Stats
+![Hugging Face Models](https://img.shields.io/badge/dynamic/json?color=blue&label=Hugging%20Face&query=%24.downloads&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Fai4protein)
+
 ```python
 from huggingface_hub import HfApi
 api = HfApi()
