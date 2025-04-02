@@ -1,16 +1,26 @@
-## Hi there 👋
+# Hi, there is Liang's Lab 👋
 
-<!--
-**ai4protein/ai4protein** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Research on protein-directed modification and redesign based on artificial intelligence technology. 
+The research content includes but is not limited to protein structure prediction and optimization, protein-directed modification, and design.
 
-Here are some ideas to get you started:
+## Recent Papers
+- [Immunogenicity Prediction with Dual Attention Enables Vaccine Target Selection](https://openreview.net/forum?id=hWmwL9gizZ). ICLR, 2025.
+- [VenusMutHub: A systematic evaluation of protein mutation effect predictors on small-scale experimental data](https://www.sciencedirect.com/science/article/pii/S2211383525001650). Acta Pharmaceutica Sinica B, 2025.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+## 📊 GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical)
+
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=radical)
+
+## 🌍 Hugging Face Model Stats
+```python
+from huggingface_hub import HfApi
+api = HfApi()
+models = api.list_models(author="ai4protein")
+total_downloads = sum(m.downloads for m in models)
+print(f"Total Downloads: {total_downloads}")
+```
+(Or check out my Hugging Face profile: [Hugging Face](https://huggingface.co/ai4protein))
+
+
