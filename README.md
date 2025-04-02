@@ -1,17 +1,17 @@
-# Hi, there is Liang's Lab 👋
+# Hi, there is [Liang's Lab](https://ins.sjtu.edu.cn/people/lhong/index.html) 👋
 
 Research on protein-directed modification and redesign based on artificial intelligence technology. 
 The research content includes but is not limited to protein structure prediction and optimization, protein-directed modification, and design.
 
 ## Recent Papers
-- [Immunogenicity Prediction with Dual Attention Enables Vaccine Target Selection](https://openreview.net/forum?id=hWmwL9gizZ). ICLR, 2025.
-- [VenusMutHub: A systematic evaluation of protein mutation effect predictors on small-scale experimental data](https://www.sciencedirect.com/science/article/pii/S2211383525001650). Acta Pharmaceutica Sinica B, 2025.
+- [Immunogenicity Prediction with Dual Attention Enables Vaccine Target Selection](https://openreview.net/forum?id=hWmwL9gizZ). *ICLR*, 2025.
+- [VenusMutHub: A systematic evaluation of protein mutation effect predictors on small-scale experimental data](https://www.sciencedirect.com/science/article/pii/S2211383525001650). *Acta Pharmaceutica Sinica B*, 2025.
 
 
 ## 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ai4protein&show_icons=true&theme=radical)
 
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=radical)
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ai4protein&layout=compact&theme=radical)
 
 ## 🌍 Hugging Face Model Stats
 ```python
