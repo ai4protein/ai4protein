@@ -1,7 +1,7 @@
 import requests
 from huggingface_hub import HfApi
 
-USERNAME = "ai4protein"
+USERNAME = "AI4Protein"
 README_PATH = "README.md"
 
 def get_github_stats(username):
