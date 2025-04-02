@@ -1,16 +1,17 @@
-name: Update GitHub Forks & HF Downloads
+name: Update GitHub and Hugging Face Stats
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # 每天运行
-  workflow_dispatch:  # 允许手动触发
+    - cron: "0 0 * * *"  # 每天 00:00 UTC 自动运行
+  workflow_dispatch:     # 支持手动触发
 
 permissions:
-  contents: write  # 允许 GitHub Actions 写入仓库内容
+  contents: write  # 允许推送 README 更新
 
 jobs:
-  update-readme:
+  update-stats:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -23,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests huggingface_hub
 
-      - name: Run script
+      - name: Run update script
         run: python update_stats.py
 
       - name: Commit and push if changed
@@ -31,5 +32,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "Updated GitHub forks and Hugging Face downloads" || exit 0
+          git commit -m "🔄 Auto-update GitHub & Hugging Face stats" || exit 0
           git push
