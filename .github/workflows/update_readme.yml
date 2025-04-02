@@ -29,4 +29,4 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
           git commit -m "Updated GitHub forks and Hugging Face downloads" || exit 0
-          git push
+          git push https://x-access-token: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@github.com/ai4protein/ai4protein.git HEAD:main
