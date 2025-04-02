@@ -11,8 +11,6 @@ The research content includes but is not limited to protein structure prediction
 ## 📊 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ai4protein&show_icons=true&theme=radical)
 
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ai4protein&layout=compact&theme=radical)
-
 ## 🌍 Hugging Face Model Stats
 ```python
 from huggingface_hub import HfApi
