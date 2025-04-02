@@ -1,7 +1,7 @@
 # Hi, there is [Liang's Lab](https://ins.sjtu.edu.cn/people/lhong/index.html) 👋
 
-![Total Stars](https://github-readme-stats.vercel.app/api?username=ai4protein&show_icons=true&theme=radical&count_private=true)
-**Total Forks**: _Updating via GitHub Actions_
+![Total Stars](https://img.shields.io/github/stars/ai4protein?style=social)
+![Total Forks](https://img.shields.io/github/forks/ai4protein?style=social)
 
 Research on protein-directed modification and redesign based on artificial intelligence technology.  
 The research content includes but is not limited to protein structure prediction and optimization, protein-directed modification, and design.
