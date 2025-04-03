@@ -2,12 +2,16 @@
 
 ![Total Stars](https://img.shields.io/badge/Stars-423-blue?logo=github&style=flat-square) <!-- 🔄 stars -->
 ![Total Forks](https://img.shields.io/badge/Forks-43-blue?logo=github&style=flat-square) <!-- 🔄 forks -->
-![Model Downloads](https://img.shields.io/badge/HuggingFace%20Models-4983-orange?logo=huggingface&style=flat-square) <!-- 🔄 hf_models -->
-![Dataset Downloads](https://img.shields.io/badge/HuggingFace%20Datasets-294-orange?logo=huggingface&style=flat-square) <!-- 🔄 hf_datasets -->
+![Total Model Downloads](https://img.shields.io/badge/Total%20Model%20Downloads-14,570-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_models -->
+![Total Dataset Downloads](https://img.shields.io/badge/Total%20Dataset%20Downloads-31,647-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_datasets -->
 
 Research on protein-directed modification and redesign based on artificial intelligence technology.  
 The research content includes but is not limited to protein structure prediction and optimization, protein-directed modification, and design.
 
-## Recent Papers
+## 🎈 Recent Papers
 - [Immunogenicity Prediction with Dual Attention Enables Vaccine Target Selection](https://openreview.net/forum?id=hWmwL9gizZ). *ICLR*, 2025.
 - [VenusMutHub: A systematic evaluation of protein mutation effect predictors on small-scale experimental data](https://www.sciencedirect.com/science/article/pii/S2211383525001650). *Acta Pharmaceutica Sinica B*, 2025.
+
+## 📈 Hugging Face Downloads Over Time
+
+<img src="hf_downloads_chart.png" alt="Download Chart" width="100%">
